@@ -1,0 +1,137 @@
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url(/images/download.jpg) no-repeat;
+   background-size: cover;
+   overflow: hidden;
+
+}
+.cart{
+   display: flex;
+   flex-wrap: row wrap;
+}
+.cart .cards{
+   margin: 80px;
+}
+.cards{
+   display: grid;
+   grid-template-columns: 300px;
+   grid-template-rows: 210px 210px 80px ;
+   grid-template-areas: "image" "text" "stats";
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius:18px;
+   background: white;
+   box-shadow: 5px 5px 5px  rgba(0,0,0,0.9);
+   text-align: center;
+   transition: 1s ease;
+   cursor: pointer;
+
+
+}
+.cards-image{
+   grid-area: image;
+   background: url(/images/pexels-mamunurpics-4903255.jpg) no-repeat;
+   background-size: cover;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+  
+  
+}
+.cards-text{
+   grid-area: text;
+   margin: 15px;
+   
+}
+.cards-text span{
+   color: rgb(255,7,110);
+   font-size: 13px;
+}
+.cards-text p{
+   color: grey;
+   font-size: 15px;
+   font-weight: 300;
+}
+.cards-text h2{
+   margin-top: 0%;
+   font-size: 28px;
+}
+.cards-stats{
+   grid-area: stats;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   background: rgb(255,7,110);
+
+   
+}
+
+
+.cards-stats .stat{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:white ;
+}
+.cards-stats .type{
+   font-size: 11px;
+   font-weight: 300;
+   text-transform: uppercase;
+}
+.cards-stats .value{
+   font-size: 22px;
+   font-weight: 500;
+}
+.cards-stats .border{
+      border-left: 1px solid rgb(172,26,87);
+      border-right:1px solid rgb(172,26,87) ;
+}
+sup{
+   font-size: 12px;
+}
+.cards:hover{
+
+   transform: scale(1.2);
+   box-shadow: 5px 5px 5px rgba(0, 0 , 0, 0.6);
+}
+.cards-2nd .cards-stats{
+   background: rgb(71, 255, 240);
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+
+}
+.cards-2nd .cards-image{
+   background: url(/images/pexels-maria-varshavskaya-4931359.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.cards-2nd .cards-stats .border{
+    border-left: 1px solid rgba(26, 138, 172, 0.699);
+      border-right:1px solid rgba(26, 138, 172, 0.705) ;
+
+}
+.cards-2nd span{
+   color: rgba(26, 138, 172, 0.699) ;
+}
+.cards-3rd .cards-image{
+   background: url(/images/pexels-zhmkhv-5045816.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.cards-3rd .cards-stats{
+   background: rgb(2, 41, 5);
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+.cards-3rd .cards-stats .border{
+   border-left: 1px solid rgba(2, 66, 29, 0.699);
+     border-right:1px solid rgba(2, 66, 29, 0.699) ;
+}
+.cards-3rd span{
+   color: rgba(8, 36, 8, 0.699) ;}
