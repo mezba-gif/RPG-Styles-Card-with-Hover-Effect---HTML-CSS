@@ -4,7 +4,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url(/images/download.jpg) no-repeat;
+   background: url(images/download.jpg) no-repeat;
    background-size: cover;
    overflow: hidden;
 
@@ -33,7 +33,7 @@ body{
 }
 .cards-image{
    grid-area: image;
-   background: url(/images/pexels-mamunurpics-4903255.jpg) no-repeat;
+   background: url(images/pexels-mamunurpics-4903255.jpg) no-repeat;
    background-size: cover;
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
@@ -107,7 +107,7 @@ sup{
 
 }
 .cards-2nd .cards-image{
-   background: url(/images/pexels-maria-varshavskaya-4931359.jpg);
+   background: url(images/pexels-maria-varshavskaya-4931359.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -120,7 +120,7 @@ sup{
    color: rgba(26, 138, 172, 0.699) ;
 }
 .cards-3rd .cards-image{
-   background: url(/images/pexels-zhmkhv-5045816.jpg);
+   background: url(images/pexels-zhmkhv-5045816.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
